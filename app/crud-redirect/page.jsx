@@ -296,7 +296,7 @@ VALUES ('abel', 'abel@mail.com', 'Abell', 1, '$2y$10...');`,
                 {
                     stage: 'Database',
                     method: 'UPDATE',
-                    code: `UPDATE users SET username = 'niken_baru', email = 'baru@mail.com' 
+                    code: `UPDATE users SET username = 'abel_baru', email = 'amanda@mail.com' 
 WHERE id = 5;`,
                     description: 'Database update data user dengan ID 5'
                 }
